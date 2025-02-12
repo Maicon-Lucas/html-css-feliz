@@ -1,0 +1,34 @@
+#logo{
+border-radius: 50%;
+border: 5px solid black;
+}
+a{
+   
+    font-family: "Oswald","san-serif";
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 45px;
+    line-height: 60px;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 10px solid rgb(49, 231, 3);
+    
+}
+#button{
+    display: inline-block;
+    background-color: rgb(49, 231, 3);
+    height: 45px;
+    padding: 0px 20px;
+    box-shadow: 5px 5px 0px aqua;
+    line-height: 45px;
+    transition: 0.3s ease;
+    transition: transform 100ms linear opacity 200ms ease-in-out;
+    
+}
+#button:hover{
+    transform: scale(1.06);
+}
